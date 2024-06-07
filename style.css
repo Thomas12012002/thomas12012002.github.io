@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #fff;
+    color: #333;
+    padding: 2em 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+header .container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .tagline {
+    font-style: italic;
+    color: #666;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 0.5em 0;
+}
+
+nav .container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main .container {
+    max-width: 1170px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+section h2 {
+    color: #333;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 0.5em;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 2;
+}
+
+.profile {
+    flex: 1;
+    text-align: center;
+    margin-left: 2em;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.social-links {
+    margin-top: 1em;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #444;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.social-links a:hover {
+    color: #000;
+}
+
+.project {
+    background: #f4f4f4;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.experience-item {
+    margin: 1em 0;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.experience-header h3 {
+    margin: 0;
+}
+
+.experience-dates {
+    margin-left: 10px;
+    color: #666;
+    font-style: italic;
+}
+
+.experience-item p {
+    margin: 0.5em 0;
+}
+
+#image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-img {
+    width: calc(33% - 20px);
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 0.5em 0;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .profile {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+
+    .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .experience-dates {
+        margin-left: 0;
+        margin-top: 0.5em;
+    }
+
+    .gallery-img {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-img {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
