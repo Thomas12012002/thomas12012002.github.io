@@ -159,6 +159,45 @@ section h2 {
     border-radius: 5px;
 }
 
+.advisor-referral {
+    background: #fff;
+    padding: 1em;
+    margin-top: 2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.advisor-referral h3 {
+    margin-top: 0;
+}
+
+.advisor-card {
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.advisor-card p {
+    margin: 0.5em 0;
+}
+
+.advisor-card a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.advisor-card a:hover {
+    text-decoration: underline;
+}
+
+.advisor-card .disclaimer {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 1em;
+    font-style: italic;
+}
+
 @media (max-width: 768px) {
     nav ul li {
         display: block;
