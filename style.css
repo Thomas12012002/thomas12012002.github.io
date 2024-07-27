@@ -159,7 +159,7 @@ section h2 {
     border-radius: 5px;
 }
 
-.advisor-referral {
+.recommendations {
     background: #fff;
     padding: 1em;
     margin-top: 2em;
@@ -167,7 +167,7 @@ section h2 {
     border-radius: 5px;
 }
 
-.advisor-referral h3 {
+.recommendations h2 {
     margin-top: 0;
 }
 
@@ -176,6 +176,7 @@ section h2 {
     background: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 5px;
+    margin-bottom: 1em;
 }
 
 .advisor-card p {
