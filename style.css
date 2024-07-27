@@ -159,15 +159,25 @@ section h2 {
     border-radius: 5px;
 }
 
-.recommendations {
+.publications {
+    display: flex;
+    justify-content: space-between;
+}
+
+.publications .main-content {
+    flex: 2;
+}
+
+.publications .sidebar {
+    flex: 1;
+    margin-left: 2em;
     background: #fff;
     padding: 1em;
-    margin-top: 2em;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
-.recommendations h2 {
+.sidebar h3 {
     margin-top: 0;
 }
 
@@ -227,6 +237,15 @@ section h2 {
 
     .gallery-img {
         width: calc(50% - 20px);
+    }
+
+    .publications {
+        flex-direction: column;
+    }
+
+    .publications .sidebar {
+        margin-left: 0;
+        margin-top: 2em;
     }
 }
 
