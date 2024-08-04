@@ -7,7 +7,9 @@ body {
 }
 
 header {
-    background: url('image.png') no-repeat center center/cover;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
     color: #fff;
     padding: 2em 0;
     text-align: center;
@@ -26,7 +28,8 @@ header h1 {
 
 header .quote {
     font-style: italic;
-    color: #fff;
+    color: #f4f4f4;
+    margin-top: 0.5em;
 }
 
 nav {
@@ -195,8 +198,7 @@ section h2 {
 
 .advisor-card a {
     color: #007BFF;
-    text-decoration:```css
-underline;
+    text-decoration: none;
 }
 
 .advisor-card a:hover {
