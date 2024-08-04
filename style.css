@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background: #fff;
-    color: #333;
+    background: #8B4513;
+    color: #fff;
     padding: 2em 0;
     text-align: center;
     border-bottom: 1px solid #ccc;
@@ -26,8 +26,7 @@ header h1 {
 
 header .quote {
     font-style: italic;
-    color: #666;
-    margin-top: 0.5em;
+    color: #fff;
 }
 
 nav {
@@ -64,7 +63,7 @@ main .container {
 }
 
 section h2 {
-    color: #333;
+    color: #8B4513;
     border-bottom: 2px solid #f4f4f4;
     padding-bottom: 0.5em;
 }
