@@ -22,11 +22,13 @@ header .container {
 header h1 {
     margin: 0;
     font-size: 2.5em;
+    color: #fff;
 }
 
-header .tagline, .quote {
-    font-style: italic;
-    color: #666;
+header .quote {
+    margin-top: 1em;
+    color: #fff;
+    font-size: 1.2em;
 }
 
 nav {
