@@ -4,10 +4,13 @@ body {
     padding: 0;
     line-height: 1.6;
     background-color: #f4f4f4;
+    background-image: url('background_wood.jpg'); /* Add a wood texture background */
+    background-size: cover;
+    color: #333;
 }
 
 header {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
     color: #333;
     padding: 2em 0;
     text-align: center;
@@ -30,7 +33,7 @@ header .quote {
 }
 
 nav {
-    background: #444;
+    background: #8B4513; /* Dark wood color */
     color: #fff;
     padding: 0.5em 0;
 }
@@ -60,10 +63,13 @@ main .container {
     max-width: 1170px;
     margin: 2em auto;
     padding: 0 1em;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    color: #333;
+    color: #8B4513; /* Dark wood color */
     border-bottom: 2px solid #f4f4f4;
     padding-bottom: 0.5em;
 }
@@ -94,7 +100,7 @@ section h2 {
 .btn {
     display: inline-block;
     padding: 0.5em 1em;
-    background: #007BFF;
+    background: #8B4513;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -107,7 +113,7 @@ section h2 {
 
 .social-links a {
     margin: 0 10px;
-    color: #444;
+    color: #8B4513; /* Dark wood color */
     text-decoration: none;
     font-size: 1.5em;
 }
@@ -159,34 +165,18 @@ section h2 {
     border-radius: 5px;
 }
 
-.publications {
+.advisor-cards {
     display: flex;
     justify-content: space-between;
 }
 
-.publications .main-content {
-    flex: 2;
-}
-
-.publications .sidebar {
-    flex: 1;
-    margin-left: 2em;
-    background: #fff;
-    padding: 1em;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.sidebar h3 {
-    margin-top: 0;
-}
-
 .advisor-card {
     padding: 1em;
-    background: #f9f9f9;
+    background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 1em;
+    width: 48%;
 }
 
 .advisor-card p {
@@ -239,13 +229,13 @@ section h2 {
         width: calc(50% - 20px);
     }
 
-    .publications {
+    .advisor-cards {
         flex-direction: column;
     }
 
-    .publications .sidebar {
-        margin-left: 0;
-        margin-top: 2em;
+    .advisor-card {
+        width: 100%;
+        margin-bottom: 1em;
     }
 }
 
