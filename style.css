@@ -1,20 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    background-image: url('background_wood.jpg'); /* Add a wood texture background */
-    background-size: cover;
+    background-color: #F9F5E3;
     color: #333;
 }
 
 header {
-    background: rgba(255, 255, 255, 0.8);
-    color: #333;
+    background: #8B4513; /* Dark wood color */
+    color: #fff;
     padding: 2em 0;
     text-align: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 3px solid #D2B48C; /* Tan color for contrast */
 }
 
 header .container {
@@ -25,17 +23,19 @@ header .container {
 header h1 {
     margin: 0;
     font-size: 2.5em;
+    font-family: 'Times New Roman', serif;
 }
 
 header .quote {
     font-style: italic;
-    color: #666;
+    color: #D2B48C;
 }
 
 nav {
-    background: #8B4513; /* Dark wood color */
-    color: #fff;
+    background: #D2B48C; /* Tan color */
+    color: #333;
     padding: 0.5em 0;
+    border-top: 3px solid #8B4513;
 }
 
 nav .container {
@@ -54,7 +54,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
 }
@@ -63,15 +63,17 @@ main .container {
     max-width: 1170px;
     margin: 2em auto;
     padding: 0 1em;
-    background: rgba(255, 255, 255, 0.9);
+    background: #FFF8DC; /* Light golden color */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #D2B48C;
 }
 
 section h2 {
     color: #8B4513; /* Dark wood color */
-    border-bottom: 2px solid #f4f4f4;
+    border-bottom: 2px solid #D2B48C;
     padding-bottom: 0.5em;
+    font-family: 'Times New Roman', serif;
 }
 
 .about {
@@ -95,6 +97,7 @@ section h2 {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 2px solid #8B4513;
 }
 
 .btn {
@@ -105,6 +108,7 @@ section h2 {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 1em;
+    font-family: 'Times New Roman', serif;
 }
 
 .social-links {
@@ -123,9 +127,11 @@ section h2 {
 }
 
 .project {
-    background: #f4f4f4;
+    background: #FFF8DC; /* Light golden color */
     padding: 1em;
     margin: 1em 0;
+    border: 1px solid #D2B48C;
+    border-radius: 5px;
 }
 
 .experience-item {
@@ -141,6 +147,7 @@ section h2 {
 
 .experience-header h3 {
     margin: 0;
+    font-family: 'Times New Roman', serif;
 }
 
 .experience-dates {
@@ -163,6 +170,7 @@ section h2 {
     width: calc(33% - 20px);
     margin: 10px;
     border-radius: 5px;
+    border: 2px solid #8B4513;
 }
 
 .advisor-cards {
@@ -172,11 +180,12 @@ section h2 {
 
 .advisor-card {
     padding: 1em;
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #FFF8DC;
+    border: 1px solid #D2B48C;
     border-radius: 5px;
     margin-bottom: 1em;
     width: 48%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .advisor-card p {
