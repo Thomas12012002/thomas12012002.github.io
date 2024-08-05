@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f5f5dc;
+    background-color: #f9f7f1;
 }
 
 header {
-    background: #8B4513;
-    color: #fff;
+    background: #d2b48c;
+    color: #4b2e1e;
     padding: 2em 0;
     text-align: center;
     border-bottom: 1px solid #ccc;
@@ -22,15 +22,16 @@ header .container {
 header h1 {
     margin: 0;
     font-size: 2.5em;
+    font-family: 'Garamond', serif;
 }
 
 header .quote {
     font-style: italic;
-    color: #fff;
+    color: #4b2e1e;
 }
 
 nav {
-    background: #444;
+    background: #8b4513;
     color: #fff;
     padding: 0.5em 0;
 }
@@ -63,9 +64,10 @@ main .container {
 }
 
 section h2 {
-    color: #8B4513;
-    border-bottom: 2px solid #f4f4f4;
+    color: #4b2e1e;
+    border-bottom: 2px solid #f9f7f1;
     padding-bottom: 0.5em;
+    font-family: 'Garamond', serif;
 }
 
 .about {
@@ -94,7 +96,7 @@ section h2 {
 .btn {
     display: inline-block;
     padding: 0.5em 1em;
-    background: #007BFF;
+    background: #8b4513;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -107,17 +109,17 @@ section h2 {
 
 .social-links a {
     margin: 0 10px;
-    color: #444;
+    color: #8b4513;
     text-decoration: none;
     font-size: 1.5em;
 }
 
 .social-links a:hover {
-    color: #000;
+    color: #4b2e1e;
 }
 
 .project {
-    background: #f4f4f4;
+    background: #f9f7f1;
     padding: 1em;
     margin: 1em 0;
 }
@@ -179,6 +181,7 @@ section h2 {
 
 .sidebar h3 {
     margin-top: 0;
+    font-family: 'Garamond', serif;
 }
 
 .advisor-card {
@@ -194,7 +197,7 @@ section h2 {
 }
 
 .advisor-card a {
-    color: #007BFF;
+    color: #8b4513;
     text-decoration: none;
 }
 
